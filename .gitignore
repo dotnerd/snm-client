@@ -28,3 +28,5 @@ node_modules
 
 #bower
 bower_components
+dist
+.temp
