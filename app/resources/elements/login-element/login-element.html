@@ -1,0 +1,23 @@
+<dom-module id="login-element">
+  <link rel="stylesheet" type="text/css" href="login-element.css">
+  <template>
+    <paper-material class="login-container" elevation=5>
+      <div class="login-header title">Sign In</div>
+      <div class="login-form">
+        <div class="login-fields">
+          <paper-input label="Username" required=true></paper-input>
+          <paper-input label="Password" required=true type="password"></paper-input>
+        </div>
+        <div class="login-button">
+          <paper-button>Submit</paper-button>
+        </div>
+      </div>
+    </paper-material>
+  </template>
+</dom-module>
+<script>
+  Polymer({
+    is: 'login-element'
+  });
+
+</script>
